@@ -1,14 +1,13 @@
-import './App.css';
-import CounterClass from './components/counter_class';
-import CounterFunction from './components/counter_function';
+import React from 'react'
+import { Zz } from './components/Zz';
 
-function App() {
+export const App = () => {
   return (
     <div>
-      
-      
+      <Zz/>
     </div>
-  );
+  )
 }
 
 export default App;
+
